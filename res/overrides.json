@@ -1,0 +1,52 @@
+{
+    "https://wex-public-service-live-prod.ol.epicgames.com": {
+        "response_status": 200,
+        "response_headers": "",
+        "response_content": ""
+    },
+    "https://priceengine-public-service-prod.ol.epicgames.com": {
+        "response_status": 200,
+        "response_headers": "",
+        "response_content": ""
+    },
+    "https://lightswitch-public-service-prod06.ol.epicgames.com": {
+        "response_status": 200,
+        "response_headers": "",
+        "response_content": ""
+    },
+    "https://lightswitch-public-service-prod.ol.epicgames.com": {
+        "response_status": 200,
+        "response_headers": "",
+        "response_content": ""
+    },
+    "https://friends-public-service-prod.ol.epicgames.com": {
+        "response_status": 200,
+        "response_headers": "",
+        "response_content": ""
+    },
+    "https://datarouter.ol.epicgames.com": {
+        "response_status": 200,
+        "response_headers": "",
+        "response_content": ""
+    },
+    "https://catalog-public-service-prod06.ol.epicgames.com": {
+        "response_status": 200,
+        "response_headers": "",
+        "response_content": ""
+    },
+    "https://catalog-public-service-prod.ol.epicgames.com": {
+        "response_status": 200,
+        "response_headers": "",
+        "response_content": ""
+    },
+    "https://battlebreakers-live-cdn.ol.epicgames.com": {
+        "response_status": 200,
+        "response_headers": "",
+        "response_content": ""
+    },
+    "https://account-public-service-prod.ol.epicgames.com": {
+        "response_status": 200,
+        "response_headers": "",
+        "response_content": ""
+    }
+}
