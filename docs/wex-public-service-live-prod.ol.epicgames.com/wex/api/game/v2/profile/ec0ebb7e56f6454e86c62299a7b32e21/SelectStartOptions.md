@@ -255,12 +255,12 @@ ___
     {
       "changeType": "statModified",
       "name": "display_name",
-      "value": "dippy is here"
+      "value": "Epic Name 1"
     },
     {
       "changeType": "statModified",
       "name": "normalized_name",
-      "value": "DIPPYISHERE"
+      "value": "EPICNAME1"
     }
   ],
   "profileCommandRevision": 3,
