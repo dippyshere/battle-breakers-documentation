@@ -32,7 +32,7 @@ altered to remove sensitive information.
 
 - MCP Operations
     - [ ] ClaimGiftPoints
-    - [ ] SetRepHero
+    - [x] SetRepHero
     - [ ] UpdateAccountHeadlessStatus (Probably never used)
     - [ ] feedback/log-upload/ (Useless for us)
     - [ ] https://bbcontent-website-prod07.ol.epicgames.com/content/api/pages/... (missing key)
