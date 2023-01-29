@@ -49,7 +49,7 @@ altered to remove sensitive information.
     - [x] Build Manifests
         - We can still download these
           from [the CDN](https://battlebreakers-live-cdn.ol.epicgames.com/1.88.244-r17036752/BuildManifest-Windows.txt)
-          for any platform (Windows, Android_ASTC, IOS)
+          for any platform (Windows, Android_(ASTC/ATC/EXT1/EXT2/DXT/PVRTC), IOS)
             - [x] 1.88.244-r17036752 (Latest) (Got APK + PAKs, EXE) (4.25.0-17035652)
             - [ ] 1.88.165-r14606516 (Got PAKs) (4.25.0)
             - [ ] 1.88.0
@@ -60,7 +60,7 @@ altered to remove sensitive information.
             - [ ] 1.84.579-r13741918 (Got PAKs) (4.25.0)
             - [ ] 1.84.0
             - [x] 1.83.304-r12154759 (Got APK + PAKs) (4.23.0)
-            - [ ] 1.83.0
+            - [ ] 1.83.252-r11972457 (Got PAKs) (4.23.0)
             - [ ] 1.82.0
             - [ ] 1.81.1
             - [ ] 1.81.0
