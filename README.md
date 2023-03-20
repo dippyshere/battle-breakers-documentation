@@ -33,16 +33,24 @@ altered to remove sensitive information.
 - MCP Operations
     - [ ] ClaimGiftPoints
     - [x] SetRepHero
+    - [ ] item_ratings (POST)
     - [ ] UpdateAccountHeadlessStatus (Probably never used)
     - [ ] feedback/log-upload/ (Useless for us)
+    - [ ] RequestPreregistrationReward
     - [ ] https://bbcontent-website-prod07.ol.epicgames.com/content/api/pages/... (missing key)
+    - [ ] /api/storeaccess/v1/redeem_access/`accountid`
+    - [ ] /api/storeaccess/v1/request_access/`accountid`
+    - [ ] /api/accesscontrol/status
+    - [ ] https://events.appsflyer.com/api/v4/androidevent?buildnumber=4.7.4&app_id=com.chairentertainment.BattleBreakers
+    - [ ] https://app.adjust.com/attribution?environment=sandbox&needs_response_details=1
+    - [ ] https://app.adjust.com/event
 - Manifests
     - [ ] Android Manifests
         - Used by old Android builds (Seen in 1.0, 1.1, 1.2)
         - [...wex/api/v2/manifests/android_astc.manifest](https://wex-public-service-live-prod.ol.epicgames.com/wex/api/v2/manifests/android_astc.manifest?nocache=789564886)
         - [x] 1.2.227-r3514827 manifest
         - [ ] 1.1-r3437464 manifest
-        - [ ] 1.0 manifest
+        - [ ] 1.0-r3302067 manifest
     - [ ] iOS Manifests
         - Used by old iOS builds (Probably)
         - [...wex/api/v2/manifests/ios.manifest](https://wex-public-service-live-prod.ol.epicgames.com/wex/api/v2/manifests/ios.manifest)
@@ -86,7 +94,7 @@ altered to remove sensitive information.
             - [ ] 1.0.3
             - [ ] 1.0.2
             - [ ] 1.0.1
-            - [ ] 1.0.0 (Got APK) (4.16.0)
+            - [ ] 1.0-r3302067 (Got APK) (4.16.0)
             - [ ] 1.0-beta
             - If you discover any other builds / build strings, please let me know!
 
