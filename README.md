@@ -32,9 +32,10 @@ altered to remove sensitive information.
 
 - MCP Operations
     - [ ] ClaimGiftPoints
-    - [x] SetRepHero
-    - [ ] item_ratings (POST)
-    - [ ] UpdateAccountHeadlessStatus (Probably never used)
+    - [x] ~~SetRepHero~~
+    - [ ] item_ratings (POST for voting)
+    - [ ] VerifyRealMoneyPurchase
+    - [ ] UpdateAccountHeadlessStatus (Rarely encountered)
     - [ ] feedback/log-upload/ (Useless for us)
     - [ ] RequestPreregistrationReward
     - [ ] https://bbcontent-website-prod07.ol.epicgames.com/content/api/pages/... (missing key)
@@ -65,13 +66,13 @@ altered to remove sensitive information.
             - [ ] 1.86.83-r14347717 (Got PAKs) (4.25.0)
             - [ ] 1.85.462-r14276011 (Got PAKs) (4.25.0)
             - [x] 1.84.752-r13922354 (Latest iOS) (Got APK + PAKs, EXE) (4.25.0) (29/07/20)
+            - [ ] 1.84.635 (25/06/20)
             - [ ] 1.84.579-r13741918 (Got PAKs) (4.25.0) (6/07/20)
-            - [ ] 1.84.0 (25/06/20)
             - [x] 1.83.304-r12154759 (Got APK + PAKs) (4.23.0) (17/03/20)
             - [ ] 1.83.252-r11972457 (Got PAKs) (4.23.0) (10/03/20)
             - [ ] 1.82.328-r11197089 (Got APK + PAKs) (4.23.0) (4/02/20)
             - [ ] 1.81.1 (21/01/20)
-            - [ ] 1.81.0 (16/12/19)
+            - [ ] 1.81.408 (16/12/19)
             - [ ] 1.80.4 (27/11/19)
             - [ ] 1.80.3 (20/11/19)
             - [x] 1.80.1696-r10121395 (Got APK + PAKs) (4.23.0) (13/11/19)
