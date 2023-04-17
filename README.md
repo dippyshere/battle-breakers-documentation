@@ -35,13 +35,15 @@ altered to remove sensitive information.
     - [x] ~~SetRepHero~~
     - [ ] item_ratings (POST for voting)
     - [ ] VerifyRealMoneyPurchase
-    - [ ] UpdateAccountHeadlessStatus (Rarely encountered)
+    - [x] UpdateAccountHeadlessStatus
     - [ ] feedback/log-upload/ (Useless for us)
     - [ ] RequestPreregistrationReward
     - [ ] https://bbcontent-website-prod07.ol.epicgames.com/content/api/pages/... (missing key)
-    - [ ] /api/storeaccess/v1/redeem_access/`accountid`
-    - [ ] /api/storeaccess/v1/request_access/`accountid`
-    - [ ] /api/accesscontrol/status
+    - [ ] wex/api/storeaccess/v1/redeem_access/`accountid`
+    - [ ] wex/api/storeaccess/v1/request_access/`accountid`
+    - [ ] wex/api/accesscontrol/status
+    - [ ] wex/api/game/v2/friends/`accountid`/search?name= (wex specific friends)
+    - [ ] /account/api/public/account/`accountid`/externalAuths (linking accounts)
     - [ ] https://events.appsflyer.com/api/v4/androidevent?buildnumber=4.7.4&app_id=com.chairentertainment.BattleBreakers
     - [ ] https://app.adjust.com/attribution?environment=sandbox&needs_response_details=1
     - [ ] https://app.adjust.com/event
