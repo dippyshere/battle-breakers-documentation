@@ -39,6 +39,7 @@ altered to remove sensitive information.
     - [ ] RequestPreregistrationReward
     - [ ] SuggestFriends
     - [ ] SellTreasure
+    - [ ] SellGear
     - [ ] feedback/log-upload/ (Useless for us)
     - [ ] https://bbcontent-website-prod07.ol.epicgames.com/content/api/pages/... (missing key)
     - [ ] wex/api/game/v2/motd
@@ -74,6 +75,7 @@ altered to remove sensitive information.
         - [ ] 1.84.579-r13741918 (Got PAKs) (4.25.0) (6/07/20)
         - [x] 1.83.304-r12154759 (Got APK + PAKs) (4.23.0) (17/03/20)
         - [ ] 1.83.252-r11972457 (Got PAKs) (4.23.0) (10/03/20)
+        - [ ] 1.82.353-r11264911
         - [ ] 1.82.328-r11197089 (Got APK + PAKs) (4.23.0) (4/02/20)
         - [ ] 1.81.1 (21/01/20)
         - [ ] 1.81.408 (16/12/19)
