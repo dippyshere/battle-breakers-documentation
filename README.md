@@ -40,9 +40,11 @@ altered to remove sensitive information.
     - [ ] SuggestFriends
     - [ ] SellTreasure
     - [ ] SellGear
+    - [ ] MarkHeroSeen (identical to MarkItemSeen excl. payload)
     - [ ] feedback/log-upload/ (Useless for us)
     - [ ] https://bbcontent-website-prod07.ol.epicgames.com/content/api/pages/... (missing key)
     - [ ] wex/api/game/v2/motd
+    - [ ] wex/api/push/`accountid`/register (notifications)
     - [ ] https://www.epicgames.com/battlebreakers/motd?rvn=-1
     - [ ] wex/api/storeaccess/v1/redeem_access/`accountid`
     - [ ] wex/api/storeaccess/v1/request_access/`accountid`
