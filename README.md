@@ -58,13 +58,13 @@ altered to remove sensitive information.
     - [x] CloudV3 HTTPChunkInstaller Manifests
         - Used by old builds (Used by 1.0.x - 1.5.x)
         - Platforms: WindowsNoEditor, Android_ASTC, Android_ATC, Android_DXT, Android_EXT1, Android_EXT2, Android_PVRTC, IOS
-        - As these were stored under wex, they are no longer available
-        - The actual manifests for each pak chunk are [still available](https://battlebreakers-live-cdn.ol.epicgames.com/WorldExplorersLive/CL_3514827/Android_ATC/WorldExplorers_pakchunk1CL_3514827.manifest), and some PAKs are still available via CloudV3
+        - As these were stored under wex, they are no longer available (however I re-created them manually)
+        - The actual manifests for each pak chunk are [still available](https://battlebreakers-live-cdn.ol.epicgames.com/WorldExplorersLive/CL_3514827/Android_ATC/WorldExplorers_pakchunk1CL_3514827.manifest), however as of ~12/05/2023, all the PAK chunks available via CloudV3 are no longer available.
     - [x] Build Manifests
         - Used by new mobile builds (Used by 1.6.x - 1.88.x)
         - Platforms: Windows, Android_ASTC, Android_ATC, Android_DXT, Android_EXT1, Android_EXT2, Android_PVRTC, IOS
         - We can still download these
-          from [the CDN](https://battlebreakers-live-cdn.ol.epicgames.com/1.88.244-r17036752/BuildManifest-Windows.txt)
+          from [the CDN](https://battlebreakers-live-cdn.ol.epicgames.com/1.88.244-r17036752/BuildManifest-Windows.txt), along with their PAKs
     - Versions
         - [x] 1.88.244-r17036752 (Latest) (Got APK + PAKs, EXE) (4.25.0-17035652)
         - [ ] 1.88.165-r14606516 (Got PAKs) (4.25.0)
@@ -98,15 +98,15 @@ altered to remove sensitive information.
         - [ ] 1.3.3 (25/08/17)
         - [ ] 1.3.130-r3604802 (Got APK + Manifest) (4.17.0) (14/08/17)
         - [ ] 1.3.0 (7/08/17)
-        - [x] 1.2.227-r3514827 (Got APK + PAKs + Manifest) (4.16.0) (10/07/17)
-        - [ ] 1.1-r3437464 (Got APK + Manifest) (4.16.0) (17/05/17)
+        - [x] 1.2.227-r3514827 (Got APK + PAKs + Manifests) (4.16.0) (10/07/17)
+        - [ ] 1.1-r3437464 (Got APK + Manifests) (4.16.0) (17/05/17)
         - [ ] 1.0.6 (10/04/17)
         - [ ] 1.0.5 (5/04/17)
         - [ ] 1.0.4 (30/03/17)
         - [ ] 1.0.3 (14/03/17)
         - [ ] 1.0.2 (15/02/17)
         - [ ] 1.0.1 (17/01/17)
-        - [ ] 1.0-r3302067 (Got APK + Manifest) (4.16.0) (17/01/17)
+        - [x] 1.0-r3302067 (Got APK + PAKs + Manifests) (4.16.0) (17/01/17)
         - [ ] 1.0-beta (12/12/16)
         - If you discover any other builds / build strings, please let me know!
 
