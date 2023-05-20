@@ -19,8 +19,13 @@ and Epic Games. Released in beta in 2016 and launched in 2019, the game has sinc
 
 This repository is a collection of all the API calls made by the game, and the data they return. This is a work in
 progress, and will be updated as more information is found. If you have any information to add, please feel free to open
-a pull request. **If you reference any of this information in your own work, please credit / link back to this
-repository.**
+a pull request.
+
+---
+
+### **If you reference any of this information in your own work, please credit / link back to this repository.**
+
+---
 
 ### Where are the docs?
 
@@ -40,7 +45,9 @@ altered to remove sensitive information.
     - [ ] SuggestFriends
     - [ ] SellTreasure
     - [ ] SellGear
+    - [ ] SellMultipleGear
     - [ ] MarkHeroSeen (identical to MarkItemSeen excl. payload)
+    - [ ] DeleteFriend
     - [ ] feedback/log-upload/ (Useless for us)
     - [ ] https://bbcontent-website-prod07.ol.epicgames.com/content/api/pages/... (missing key)
     - [ ] wex/api/game/v2/motd
@@ -49,7 +56,7 @@ altered to remove sensitive information.
     - [ ] wex/api/storeaccess/v1/redeem_access/`accountid`
     - [ ] wex/api/storeaccess/v1/request_access/`accountid`
     - [ ] wex/api/accesscontrol/status
-    - [ ] wex/api/game/v2/friends/`accountid`/search?name= (wex specific friends)
+    - [ ] wex/api/game/v2/friends/`accountid`/search?name= (legacy wex friends)
     - [ ] account/api/public/account/`accountid`/externalAuths (linking accounts)
     - [ ] https://events.appsflyer.com/api/v4/androidevent?buildnumber=4.7.4&app_id=com.chairentertainment.BattleBreakers
     - [ ] https://app.adjust.com/attribution?environment=sandbox&needs_response_details=1
@@ -59,7 +66,7 @@ altered to remove sensitive information.
         - Used by old builds (Used by 1.0.x - 1.5.x)
         - Platforms: WindowsNoEditor, Android_ASTC, Android_ATC, Android_DXT, Android_EXT1, Android_EXT2, Android_PVRTC, IOS
         - As these were stored under wex, they are no longer available (however I re-created them manually)
-        - The actual manifests for each pak chunk are [still available](https://battlebreakers-live-cdn.ol.epicgames.com/WorldExplorersLive/CL_3514827/Android_ATC/WorldExplorers_pakchunk1CL_3514827.manifest), however as of ~12/05/2023, all the PAK chunks available via CloudV3 are no longer available.
+        - The actual manifests for each pak chunk are [mostly still available](https://battlebreakers-live-cdn.ol.epicgames.com/WorldExplorersLive/CL_3514827/Android_ATC/WorldExplorers_pakchunk1CL_3514827.manifest) on some hosts, however as of ~12/05/2023, all the PAK chunks available via CloudV3 are no longer available.
     - [x] Build Manifests
         - Used by new mobile builds (Used by 1.6.x - 1.88.x)
         - Platforms: Windows, Android_ASTC, Android_ATC, Android_DXT, Android_EXT1, Android_EXT2, Android_PVRTC, IOS
@@ -83,23 +90,23 @@ altered to remove sensitive information.
         - [ ] 1.81.408 (16/12/19)
         - [ ] 1.80.4 (27/11/19)
         - [ ] 1.80.3 (20/11/19)
-        - [x] 1.80.1696-r10121395 (Got APK + PAKs) (4.23.0) (13/11/19)
+        - [x] 1.80.1696-r10121395 (Got APK + PAKs, EXE) (4.23.0) (13/11/19)
         - [x] 1.80.1675-r10091636 (Got APK + PAKs) (4.23.0) (11/11/19)
         - [x] 1.80.1557-r9915551 (Release Playtesting) (Got APK + PAKs) (4.23.0)
         - [ ] 1.80.0 (7/11/19)
         - [x] 1.71.186-r4504633 (Got APK + PAKs) (4.20.0) (29/10/19)
-        - [ ] 1.7.1013-r4371600 (Got APK) (4.20.0) (18/09/18)
-        - [ ] 1.6.442-r4076582 (Got APK) (4.20.0) (21/05/18)
-        - [ ] 1.5.189-r3891207 (Got APK + Manifest) (4.19.0) (20/02/18)
-        - [ ] 1.5.145-r3842684 (Got APK + Manifest) (4.19.0) (22/01/18)
-        - [ ] 1.4.164-r3719898 (Got APK + Manifest) (4.18.0) (30/10/17)
-        - [ ] 1.4.103-r3693860 (Got APK + Manifest) (4.18.0) (30/10/17)
+        - [ ] 1.7.1013-r4371600 (Got APK + PAKs) (4.20.0) (18/09/18)
+        - [ ] 1.6.442-r4076582 (Got APK, PAK/Manifests deleted) (4.20.0) (21/05/18)
+        - [ ] 1.5.189-r3891207 (Got APK + PAKs + Manifest) (4.19.0) (20/02/18)
+        - [ ] 1.5.145-r3842684 (Got APK + PAKs + Manifest) (4.19.0) (22/01/18)
+        - [ ] 1.4.164-r3719898 (Got APK + PAKs + Manifest) (4.18.0) (30/10/17)
+        - [ ] 1.4.103-r3693860 (Got APK + PAKs + Manifest) (4.18.0) (30/10/17)
         - [ ] 1.4.X-r3677158 (test build)
         - [ ] 1.3.3 (25/08/17)
-        - [ ] 1.3.130-r3604802 (Got APK + Manifest) (4.17.0) (14/08/17)
+        - [ ] 1.3.130-r3604802 (Got APK + PAKs + Manifest) (4.17.0) (14/08/17)
         - [ ] 1.3.0 (7/08/17)
         - [x] 1.2.227-r3514827 (Got APK + PAKs + Manifests) (4.16.0) (10/07/17)
-        - [ ] 1.1-r3437464 (Got APK + Manifests) (4.16.0) (17/05/17)
+        - [ ] 1.1-r3437464 (Got APK + PAKs + Manifests) (4.16.0) (17/05/17)
         - [ ] 1.0.6 (10/04/17)
         - [ ] 1.0.5 (5/04/17)
         - [ ] 1.0.4 (30/03/17)
