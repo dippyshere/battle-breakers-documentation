@@ -48,6 +48,8 @@ altered to remove sensitive information.
     - [ ] SellMultipleGear
     - [ ] MarkHeroSeen (identical to MarkItemSeen excl. payload)
     - [ ] DeleteFriend
+    - [ ] AddFriend
+    - [ ] RedeemToken
     - [ ] feedback/log-upload/ (Useless for us)
     - [ ] https://bbcontent-website-prod07.ol.epicgames.com/content/api/pages/... (missing key)
     - [ ] wex/api/game/v2/motd
@@ -78,18 +80,18 @@ altered to remove sensitive information.
         - [ ] 1.88.0
         - [ ] 1.87.0
         - [ ] 1.86.83-r14347717 (Got PAKs) (4.25.0)
-        - [ ] 1.85.462-r14276011 (Got PAKs) (4.25.0)
+        - [ ] 1.85.462-r14276011 (Got PAKs) (4.25.0) (10/09/20)
         - [x] 1.84.752-r13922354 (Latest iOS) (Got APK + PAKs, EXE) (4.25.0) (29/07/20)
         - [ ] 1.84.635 (25/06/20)
         - [ ] 1.84.579-r13741918 (Got PAKs) (4.25.0) (6/07/20)
         - [x] 1.83.304-r12154759 (Got APK + PAKs) (4.23.0) (17/03/20)
         - [ ] 1.83.252-r11972457 (Got PAKs) (4.23.0) (10/03/20)
-        - [ ] 1.82.353-r11264911
+        - [ ] 1.82.353-r11264911 (Got PAKs)
         - [ ] 1.82.328-r11197089 (Got APK + PAKs) (4.23.0) (4/02/20)
-        - [ ] 1.81.1 (21/01/20)
-        - [ ] 1.81.408 (16/12/19)
-        - [ ] 1.80.4 (27/11/19)
-        - [ ] 1.80.3 (20/11/19)
+        - [ ] 1.81.583-r11039983 (Got PAKs) (21/01/20)
+        - [ ] 1.81.408-r10698544 (Got PAKs) (16/12/19)
+        - [ ] 1.80.1779-r10330063 (27/11/19)
+        - [ ] 1.80.1758-r10303436 (20/11/19)
         - [x] 1.80.1696-r10121395 (Got APK + PAKs, EXE) (4.23.0) (13/11/19)
         - [x] 1.80.1675-r10091636 (Got APK + PAKs) (4.23.0) (11/11/19)
         - [x] 1.80.1557-r9915551 (Release Playtesting) (Got APK + PAKs) (4.23.0)
@@ -107,13 +109,13 @@ altered to remove sensitive information.
         - [ ] 1.3.0 (7/08/17)
         - [x] 1.2.227-r3514827 (Got APK + PAKs + Manifests) (4.16.0) (10/07/17)
         - [ ] 1.1-r3437464 (Got APK + PAKs + Manifests) (4.16.0) (17/05/17)
-        - [ ] 1.0.6 (10/04/17)
+        - [x] 1.0-r3302067 (Got APK + PAKs + Manifests) (4.16.0) (10/04/17)
         - [ ] 1.0.5 (5/04/17)
         - [ ] 1.0.4 (30/03/17)
         - [ ] 1.0.3 (14/03/17)
         - [ ] 1.0.2 (15/02/17)
         - [ ] 1.0.1 (17/01/17)
-        - [x] 1.0-r3302067 (Got APK + PAKs + Manifests) (4.16.0) (17/01/17)
+        - [ ] 1.0.0 (17/01/17)
         - [ ] 1.0-beta (12/12/16)
         - If you discover any other builds / build strings, please let me know!
 
