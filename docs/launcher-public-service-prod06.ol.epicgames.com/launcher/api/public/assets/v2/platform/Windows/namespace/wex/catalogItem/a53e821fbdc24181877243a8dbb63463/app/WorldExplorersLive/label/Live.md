@@ -4,34 +4,26 @@
 
 *https://launcher-public-service-prod06.ol.epicgames.com/launcher/api/public/assets/v2/platform/Windows/namespace/wex/catalogItem/a53e821fbdc24181877243a8dbb63463/app/WorldExplorersLive/label/Live*
 
-
-
 ___
 
 ## Request
 
-```http request
+```http
 GET /launcher/api/public/assets/v2/platform/Windows/namespace/wex/catalogItem/a53e821fbdc24181877243a8dbb63463/app/WorldExplorersLive/label/Live HTTP/1.1
 ```
 
-
-
-
-
 ### Request Headers
 
-| Name | Value |
-|---|---|
-| Host | launcher-public-service-prod06.ol.epicgames.com |
-| Accept | \*/\* |
-| Accept-Encoding | deflate, gzip |
-| Content-Type | application/json |
-| X-Epic-Correlation-ID | UE4-2f4c92e44a8a8420a867089329526852-F0B5EE074C9D4C2448C00AA6A440E5E1-F5BEC64547E0A9259FC026BBA8B796B2 |
-| User-Agent | UELauncher/14.4.1-23462965+++Portal+Release-Live Windows/10.0.22621.1.256.64bit |
-| Authorization | bearer [eg1~token](https://github.com/dippyshere/battle-breakers-documentation/blob/master/docs/common/tokens/eg1.md) |
-| Content-Length | 0 |
-
-
+| Name                  | Value                                                                                                                 |
+|-----------------------|-----------------------------------------------------------------------------------------------------------------------|
+| Host                  | launcher-public-service-prod06.ol.epicgames.com                                                                       |
+| Accept                | \*/\*                                                                                                                 |
+| Accept-Encoding       | deflate, gzip                                                                                                         |
+| Content-Type          | application/json                                                                                                      |
+| X-Epic-Correlation-ID | UE4-2f4c92e44a8a8420a867089329526852-F0B5EE074C9D4C2448C00AA6A440E5E1-F5BEC64547E0A9259FC026BBA8B796B2                |
+| User-Agent            | UELauncher/14.4.1-23462965+++Portal+Release-Live Windows/10.0.22621.1.256.64bit                                       |
+| Authorization         | bearer [eg1~token](https://github.com/dippyshere/battle-breakers-documentation/blob/master/docs/common/tokens/eg1.md) |
+| Content-Length        | 0                                                                                                                     |
 
 ___
 
@@ -39,24 +31,20 @@ ___
 
 #### Status: 200 OK
 
-
-
-
 ### Response Headers
 
-| Name | Value |
-|---|---|
-| Content-Type | application/json |
-| Content-Length | 4640 |
-| Date | Thu, 29 Dec 2022 05:42:40 GMT |
-| X-Epic-Device-ID | 2f4c92e44a8a8420a867089329526852 |
+| Name                  | Value                                                                                                  |
+|-----------------------|--------------------------------------------------------------------------------------------------------|
+| Content-Type          | application/json                                                                                       |
+| Content-Length        | 4640                                                                                                   |
+| Date                  | Thu, 29 Dec 2022 05:42:40 GMT                                                                          |
+| X-Epic-Device-ID      | 2f4c92e44a8a8420a867089329526852                                                                       |
 | X-Epic-Correlation-ID | UE4-2f4c92e44a8a8420a867089329526852-F0B5EE074C9D4C2448C00AA6A440E5E1-F5BEC64547E0A9259FC026BBA8B796B2 |
-| X-Cache | Miss from cloudfront |
-| Via | 1.1 80221b5cb6d99c6010a1a445f2ea0f30.cloudfront.net (CloudFront) |
-| X-Amz-Cf-Pop | SYD62-P2 |
-| X-Amz-Cf-Id | m8oZBpBvVlBWcrS4btTawQpJfa5-afXHJzD5jEDKykEABxeZrmS6ag== |
-| Connection | keep-alive |
-
+| X-Cache               | Miss from cloudfront                                                                                   |
+| Via                   | 1.1 80221b5cb6d99c6010a1a445f2ea0f30.cloudfront.net (CloudFront)                                       |
+| X-Amz-Cf-Pop          | SYD62-P2                                                                                               |
+| X-Amz-Cf-Id           | m8oZBpBvVlBWcrS4btTawQpJfa5-afXHJzD5jEDKykEABxeZrmS6ag==                                               |
+| Connection            | keep-alive                                                                                             |
 
 ### Response Body
 
@@ -161,8 +149,6 @@ ___
   ]
 }
 ```
-
-*Response body was encoded in base64*
 
 ___
 

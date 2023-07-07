@@ -1,54 +1,48 @@
-# Items
+# Catalog Items
 
 #####
 
 *https://catalog-public-service-prod06.ol.epicgames.com/catalog/api/shared/namespace/wex/bulk/items?includeDLCDetails=false&includeMainGameDetails=false&country=US&locale=en*
 
-
-
 ___
 
 ## Request
 
-```http request
+```http
 POST /catalog/api/shared/namespace/wex/bulk/items?includeDLCDetails=false&includeMainGameDetails=false&country=US&locale=en HTTP/1.1
 ```
 
 ### Query String
 
-| Name | Value |
-|---|---|
-| includeDLCDetails | false |
+| Name                   | Value |
+|------------------------|-------|
+| includeDLCDetails      | false |
 | includeMainGameDetails | false |
-| country | US |
-| locale | en |
-
-
-
+| country                | US    |
+| locale                 | en    |
 
 ### Request Headers
 
-| Name | Value |
-|---|---|
-| Host | catalog-public-service-prod06.ol.epicgames.com |
-| Accept | \*/\* |
-| Accept-Encoding | deflate, gzip |
-| Content-Type | application/x-www-form-urlencoded |
-| X-Epic-Correlation-ID | UE4-2f4c92e44a8a8420a867089329526852-F0B5EE074C9D4C2448C00AA6A440E5E1-E6A735F0484126F47FBBC489FF7ADA3A |
-| User-Agent | UELauncher/14.4.1-23462965+++Portal+Release-Live Windows/10.0.22621.1.256.64bit |
-| Authorization | bearer [eg1~token](https://github.com/dippyshere/battle-breakers-documentation/blob/master/docs/common/tokens/eg1.md) |
-| Content-Length | 179 |
-
+| Name                  | Value                                                                                                                 |
+|-----------------------|-----------------------------------------------------------------------------------------------------------------------|
+| Host                  | catalog-public-service-prod06.ol.epicgames.com                                                                        |
+| Accept                | \*/\*                                                                                                                 |
+| Accept-Encoding       | deflate, gzip                                                                                                         |
+| Content-Type          | application/x-www-form-urlencoded                                                                                     |
+| X-Epic-Correlation-ID | UE4-2f4c92e44a8a8420a867089329526852-F0B5EE074C9D4C2448C00AA6A440E5E1-E6A735F0484126F47FBBC489FF7ADA3A                |
+| User-Agent            | UELauncher/14.4.1-23462965+++Portal+Release-Live Windows/10.0.22621.1.256.64bit                                       |
+| Authorization         | bearer [eg1~token](https://github.com/dippyshere/battle-breakers-documentation/blob/master/docs/common/tokens/eg1.md) |
+| Content-Length        | 179                                                                                                                   |
 
 ### Request Body
 
-| Name | Value |
-|---|---|
-| id | a53e821fbdc24181877243a8dbb63463 |
-| id | a1689ab49a0d41e1a0828505861d0bb9 |
-| id | 3d329b913b3c44cc8f4c5a2fc84e7cf4 |
-| id | d3ec04d33f674fd3a7054b6b6b92d6c9 |
-| id | e458e71024404176addca212860f9ef2 |
+| Name | Value                            |
+|------|----------------------------------|
+| id   | a53e821fbdc24181877243a8dbb63463 |
+| id   | a1689ab49a0d41e1a0828505861d0bb9 |
+| id   | 3d329b913b3c44cc8f4c5a2fc84e7cf4 |
+| id   | d3ec04d33f674fd3a7054b6b6b92d6c9 |
+| id   | e458e71024404176addca212860f9ef2 |
 
 ___
 
@@ -56,22 +50,18 @@ ___
 
 #### Status: 200 OK
 
-
-
-
 ### Response Headers
 
-| Name | Value |
-|---|---|
-| Date | Thu, 29 Dec 2022 05:55:04 GMT |
-| Content-Type | application/json |
-| Transfer-Encoding | chunked |
-| Vary | Accept-Encoding |
-| X-Epic-Device-ID | 2f4c92e44a8a8420a867089329526852 |
+| Name                  | Value                                                                                                  |
+|-----------------------|--------------------------------------------------------------------------------------------------------|
+| Date                  | Thu, 29 Dec 2022 05:55:04 GMT                                                                          |
+| Content-Type          | application/json                                                                                       |
+| Transfer-Encoding     | chunked                                                                                                |
+| Vary                  | Accept-Encoding                                                                                        |
+| X-Epic-Device-ID      | 2f4c92e44a8a8420a867089329526852                                                                       |
 | X-Epic-Correlation-ID | UE4-2f4c92e44a8a8420a867089329526852-F0B5EE074C9D4C2448C00AA6A440E5E1-E6A735F0484126F47FBBC489FF7ADA3A |
-| Content-Encoding | gzip |
-| Connection | keep-alive |
-
+| Content-Encoding      | gzip                                                                                                   |
+| Connection            | keep-alive                                                                                             |
 
 ### Response Body
 
@@ -284,8 +274,6 @@ ___
   }
 }
 ```
-
-*Response body was encoded in base64*
 
 ___
 

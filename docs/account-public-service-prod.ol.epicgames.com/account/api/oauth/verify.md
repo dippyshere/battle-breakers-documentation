@@ -4,39 +4,32 @@
 
 *https://account-public-service-prod.ol.epicgames.com/account/api/oauth/verify?includePerms=true*
 
-
-
 ___
 
 ## Request
 
-```http request
+```http
 GET /account/api/oauth/verify?includePerms=true HTTP/1.1
 ```
 
 ### Query String
 
-| Name | Value |
-|---|---|
-| includePerms | true |
-
-
-
+| Name         | Value |
+|--------------|-------|
+| includePerms | true  |
 
 ### Request Headers
 
-| Name | Value |
-|---|---|
-| Host | account-public-service-prod.ol.epicgames.com |
-| Accept | \*/\* |
-| Accept-Encoding | deflate, gzip |
-| X-Epic-Correlation-ID | UE4-2f4c92e44a8a8420a867089329526852-F210356F48A4A08AF14720B3AE34B5B9-5ED322ED4C671FD609E4DEB09D995E27 |
-| User-Agent | WorldExplorers/1.88.244-r17036752 Windows/10.0.22621.1.256.64bit |
-| Content-Type | application/json |
-| Authorization | bearer [eg1~token](https://github.com/dippyshere/battle-breakers-documentation/blob/master/docs/common/tokens/eg1.md) |
-| Content-Length | 0 |
-
-
+| Name                  | Value                                                                                                                 |
+|-----------------------|-----------------------------------------------------------------------------------------------------------------------|
+| Host                  | account-public-service-prod.ol.epicgames.com                                                                          |
+| Accept                | \*/\*                                                                                                                 |
+| Accept-Encoding       | deflate, gzip                                                                                                         |
+| X-Epic-Correlation-ID | UE4-2f4c92e44a8a8420a867089329526852-F210356F48A4A08AF14720B3AE34B5B9-5ED322ED4C671FD609E4DEB09D995E27                |
+| User-Agent            | WorldExplorers/1.88.244-r17036752 Windows/10.0.22621.1.256.64bit                                                      |
+| Content-Type          | application/json                                                                                                      |
+| Authorization         | bearer [eg1~token](https://github.com/dippyshere/battle-breakers-documentation/blob/master/docs/common/tokens/eg1.md) |
+| Content-Length        | 0                                                                                                                     |
 
 ___
 
@@ -44,24 +37,20 @@ ___
 
 #### Status: 200 OK
 
-
-
-
 ### Response Headers
 
-| Name | Value |
-|---|---|
-| Date | Thu, 29 Dec 2022 06:09:54 GMT |
-| Content-Type | application/json |
-| Transfer-Encoding | chunked |
-| Vary | Accept-Encoding |
-| Cache-Control | no-cache, no-store, no-transform |
-| X-Epic-Device-ID | 68009daed09498667a8039cce09983ed |
+| Name                  | Value                                                                                                  |
+|-----------------------|--------------------------------------------------------------------------------------------------------|
+| Date                  | Thu, 29 Dec 2022 06:09:54 GMT                                                                          |
+| Content-Type          | application/json                                                                                       |
+| Transfer-Encoding     | chunked                                                                                                |
+| Vary                  | Accept-Encoding                                                                                        |
+| Cache-Control         | no-cache, no-store, no-transform                                                                       |
+| X-Epic-Device-ID      | 68009daed09498667a8039cce09983ed                                                                       |
 | X-Epic-Correlation-ID | UE4-2f4c92e44a8a8420a867089329526852-F210356F48A4A08AF14720B3AE34B5B9-5ED322ED4C671FD609E4DEB09D995E27 |
-| X-Epic-From-Cache | 1 |
-| Content-Encoding | gzip |
-| Connection | keep-alive |
-
+| X-Epic-From-Cache     | 1                                                                                                      |
+| Content-Encoding      | gzip                                                                                                   |
+| Connection            | keep-alive                                                                                             |
 
 ### Response Body
 
@@ -165,8 +154,6 @@ ___
   ]
 }
 ```
-
-*Response body was encoded in base64*
 
 ___
 

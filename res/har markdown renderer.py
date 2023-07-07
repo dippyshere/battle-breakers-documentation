@@ -206,7 +206,8 @@ def main():
         else:
             response_content = ""
         try:
-            heading = url.split('/')[-1].split('?')[0][0].upper() + urllib.parse.unquote(url.split('/')[-1].split('?')[0][1:])
+            heading = url.split('/')[-1].split('?')[0][0].upper() + urllib.parse.unquote(
+                url.split('/')[-1].split('?')[0][1:])
         except:
             heading = url
         for override_target, override in overrides.items():
@@ -253,7 +254,7 @@ ___
 
 ## Request
 
-```http request
+```http
 {method} {path} {http_version}
 ```
 {query_string}

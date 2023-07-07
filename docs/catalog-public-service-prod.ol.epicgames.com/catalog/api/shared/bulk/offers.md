@@ -1,54 +1,47 @@
-# Offers
+# Catalog Offers
 
 #####
 
 *https://catalog-public-service-prod.ol.epicgames.com/catalog/api/shared/bulk/offers?id=b1c1372c9d0a428bacde8161117b1b2c&id=7d270c7e78d3439db8afe81bcd0b6b6a&id=9d517678254c4b27ab85f0d1d149784b&id=8e60722d2cd54953907351b5a94debc5&id=395a588577834f4089f14440868a3785&id=20621749aaa04a49b28a2e68049470cb&id=760156eb63ad49b68861a5b269b73b48&id=2be4ab85c1ae42bab895be28ab6cb99e&id=1bb845075f334ecaae7b55e421ab3dea&id=11b1aad3c22d4fe58c361b8c913477d6&returnItemDetails=false&country=AU&locale=en*
 
-
-
 ___
 
 ## Request
 
-```http request
+```http
 GET /catalog/api/shared/bulk/offers?id=b1c1372c9d0a428bacde8161117b1b2c&id=7d270c7e78d3439db8afe81bcd0b6b6a&id=9d517678254c4b27ab85f0d1d149784b&id=8e60722d2cd54953907351b5a94debc5&id=395a588577834f4089f14440868a3785&id=20621749aaa04a49b28a2e68049470cb&id=760156eb63ad49b68861a5b269b73b48&id=2be4ab85c1ae42bab895be28ab6cb99e&id=1bb845075f334ecaae7b55e421ab3dea&id=11b1aad3c22d4fe58c361b8c913477d6&returnItemDetails=false&country=AU&locale=en HTTP/1.1
 ```
 
 ### Query String
 
-| Name | Value |
-|---|---|
-| id | b1c1372c9d0a428bacde8161117b1b2c |
-| id | 7d270c7e78d3439db8afe81bcd0b6b6a |
-| id | 9d517678254c4b27ab85f0d1d149784b |
-| id | 8e60722d2cd54953907351b5a94debc5 |
-| id | 395a588577834f4089f14440868a3785 |
-| id | 20621749aaa04a49b28a2e68049470cb |
-| id | 760156eb63ad49b68861a5b269b73b48 |
-| id | 2be4ab85c1ae42bab895be28ab6cb99e |
-| id | 1bb845075f334ecaae7b55e421ab3dea |
-| id | 11b1aad3c22d4fe58c361b8c913477d6 |
-| returnItemDetails | false |
-| country | AU |
-| locale | en |
-
-
-
+| Name              | Value                            |
+|-------------------|----------------------------------|
+| id                | b1c1372c9d0a428bacde8161117b1b2c |
+| id                | 7d270c7e78d3439db8afe81bcd0b6b6a |
+| id                | 9d517678254c4b27ab85f0d1d149784b |
+| id                | 8e60722d2cd54953907351b5a94debc5 |
+| id                | 395a588577834f4089f14440868a3785 |
+| id                | 20621749aaa04a49b28a2e68049470cb |
+| id                | 760156eb63ad49b68861a5b269b73b48 |
+| id                | 2be4ab85c1ae42bab895be28ab6cb99e |
+| id                | 1bb845075f334ecaae7b55e421ab3dea |
+| id                | 11b1aad3c22d4fe58c361b8c913477d6 |
+| returnItemDetails | false                            |
+| country           | AU                               |
+| locale            | en                               |
 
 ### Request Headers
 
-| Name | Value |
-|---|---|
-| Host | catalog-public-service-prod.ol.epicgames.com |
-| Accept | \*/\* |
-| Accept-Encoding | deflate, gzip |
-| Content-Type | application/json |
-| X-Epic-Correlation-ID | UE4-2f4c92e44a8a8420a867089329526852-F210356F48A4A08AF14720B3AE34B5B9-2C9A20D3445C02CB961D53A0784930CD |
-| User-Agent | WorldExplorers/1.88.244-r17036752 Windows/10.0.22621.1.256.64bit |
-| Authorization | bearer [eg1~token](https://github.com/dippyshere/battle-breakers-documentation/blob/master/docs/common/tokens/eg1.md) |
-| Content-Length | 0 |
-
-
+| Name                  | Value                                                                                                                 |
+|-----------------------|-----------------------------------------------------------------------------------------------------------------------|
+| Host                  | catalog-public-service-prod.ol.epicgames.com                                                                          |
+| Accept                | \*/\*                                                                                                                 |
+| Accept-Encoding       | deflate, gzip                                                                                                         |
+| Content-Type          | application/json                                                                                                      |
+| X-Epic-Correlation-ID | UE4-2f4c92e44a8a8420a867089329526852-F210356F48A4A08AF14720B3AE34B5B9-2C9A20D3445C02CB961D53A0784930CD                |
+| User-Agent            | WorldExplorers/1.88.244-r17036752 Windows/10.0.22621.1.256.64bit                                                      |
+| Authorization         | bearer [eg1~token](https://github.com/dippyshere/battle-breakers-documentation/blob/master/docs/common/tokens/eg1.md) |
+| Content-Length        | 0                                                                                                                     |
 
 ___
 
@@ -56,21 +49,17 @@ ___
 
 #### Status: 200 OK
 
-
-
-
 ### Response Headers
 
-| Name | Value |
-|---|---|
-| Date | Thu, 29 Dec 2022 05:43:11 GMT |
-| Content-Type | application/json |
-| Transfer-Encoding | chunked |
-| Vary | Accept-Encoding |
+| Name                  | Value                                                                                                  |
+|-----------------------|--------------------------------------------------------------------------------------------------------|
+| Date                  | Thu, 29 Dec 2022 05:43:11 GMT                                                                          |
+| Content-Type          | application/json                                                                                       |
+| Transfer-Encoding     | chunked                                                                                                |
+| Vary                  | Accept-Encoding                                                                                        |
 | X-Epic-Correlation-ID | UE4-2f4c92e44a8a8420a867089329526852-F210356F48A4A08AF14720B3AE34B5B9-2C9A20D3445C02CB961D53A0784930CD |
-| Content-Encoding | gzip |
-| Connection | keep-alive |
-
+| Content-Encoding      | gzip                                                                                                   |
+| Connection            | keep-alive                                                                                             |
 
 ### Response Body
 
@@ -829,8 +818,6 @@ ___
   }
 }
 ```
-
-*Response body was encoded in base64*
 
 ___
 

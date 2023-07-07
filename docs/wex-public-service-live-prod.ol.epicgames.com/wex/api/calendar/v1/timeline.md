@@ -4,33 +4,25 @@
 
 *https://wex-public-service-live-prod.ol.epicgames.com/wex/api/calendar/v1/timeline*
 
-
-
 ___
 
 ## Request
 
-```http request
+```http
 GET /wex/api/calendar/v1/timeline HTTP/1.1
 ```
 
-
-
-
-
 ### Request Headers
 
-| Name | Value |
-|---|---|
-| Host | wex-public-service-live-prod.ol.epicgames.com |
-| Accept | \*/\* |
-| Accept-Encoding | deflate, gzip |
-| X-Epic-Correlation-ID | UE4-2f4c92e44a8a8420a867089329526852-F210356F48A4A08AF14720B3AE34B5B9-2250526540F7CC298312D6957B2C40BC |
-| User-Agent | WorldExplorers/1.88.244-r17036752 Windows/10.0.22621.1.256.64bit |
-| Authorization | bearer [eg1~token](https://github.com/dippyshere/battle-breakers-documentation/blob/master/docs/common/tokens/eg1.md) |
-| Content-Length | 0 |
-
-
+| Name                  | Value                                                                                                                 |
+|-----------------------|-----------------------------------------------------------------------------------------------------------------------|
+| Host                  | wex-public-service-live-prod.ol.epicgames.com                                                                         |
+| Accept                | \*/\*                                                                                                                 |
+| Accept-Encoding       | deflate, gzip                                                                                                         |
+| X-Epic-Correlation-ID | UE4-2f4c92e44a8a8420a867089329526852-F210356F48A4A08AF14720B3AE34B5B9-2250526540F7CC298312D6957B2C40BC                |
+| User-Agent            | WorldExplorers/1.88.244-r17036752 Windows/10.0.22621.1.256.64bit                                                      |
+| Authorization         | bearer [eg1~token](https://github.com/dippyshere/battle-breakers-documentation/blob/master/docs/common/tokens/eg1.md) |
+| Content-Length        | 0                                                                                                                     |
 
 ___
 
@@ -38,22 +30,18 @@ ___
 
 #### Status: 200 OK
 
-
-
-
 ### Response Headers
 
-| Name | Value |
-|---|---|
-| Date | Thu, 29 Dec 2022 05:42:54 GMT |
-| Content-Type | application/json |
-| Transfer-Encoding | chunked |
-| X-EpicGames-McpVersion | prod Release-1.88-1.88 build 107 cl 19310354 |
-| X-EpicGames-ContentVersion | 1.88.244-r17036752 |
-| X-EpicGames-MinBuild | 17036752 |
-| X-Epic-Correlation-ID | UE4-2f4c92e44a8a8420a867089329526852-F210356F48A4A08AF14720B3AE34B5B9-2250526540F7CC298312D6957B2C40BC |
-| Connection | keep-alive |
-
+| Name                       | Value                                                                                                  |
+|----------------------------|--------------------------------------------------------------------------------------------------------|
+| Date                       | Thu, 29 Dec 2022 05:42:54 GMT                                                                          |
+| Content-Type               | application/json                                                                                       |
+| Transfer-Encoding          | chunked                                                                                                |
+| X-EpicGames-McpVersion     | prod Release-1.88-1.88 build 107 cl 19310354                                                           |
+| X-EpicGames-ContentVersion | 1.88.244-r17036752                                                                                     |
+| X-EpicGames-MinBuild       | 17036752                                                                                               |
+| X-Epic-Correlation-ID      | UE4-2f4c92e44a8a8420a867089329526852-F210356F48A4A08AF14720B3AE34B5B9-2250526540F7CC298312D6957B2C40BC |
+| Connection                 | keep-alive                                                                                             |
 
 ### Response Body
 
@@ -1268,8 +1256,6 @@ ___
   "currentTime": "2022-12-29T05:42:54.945Z"
 }
 ```
-
-*Response body was encoded in base64*
 
 ___
 

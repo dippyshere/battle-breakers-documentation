@@ -66,14 +66,18 @@ altered to remove sensitive information.
 - Manifests
     - [x] CloudV3 HTTPChunkInstaller Manifests
         - Used by old builds (Used by 1.0.x - 1.5.x)
-        - Platforms: WindowsNoEditor, Android_ASTC, Android_ATC, Android_DXT, Android_EXT1, Android_EXT2, Android_PVRTC, IOS
+        - Platforms: WindowsNoEditor, Android_ASTC, Android_ATC, Android_DXT, Android_EXT1, Android_EXT2, Android_PVRTC,
+          IOS
         - As these were stored under wex, they are no longer available (however I re-created them manually)
-        - The actual manifests for each pak chunk are [mostly still available](https://battlebreakers-live-cdn.ol.epicgames.com/WorldExplorersLive/CL_3514827/Android_ATC/WorldExplorers_pakchunk1CL_3514827.manifest) on some hosts, however as of ~12/05/2023, all the PAK chunks available via CloudV3 are no longer available.
+        - The actual manifests for each pak chunk
+          are [mostly still available](https://battlebreakers-live-cdn.ol.epicgames.com/WorldExplorersLive/CL_3514827/Android_ATC/WorldExplorers_pakchunk1CL_3514827.manifest)
+          on some hosts, however as of ~12/05/2023, all the PAK chunks available via CloudV3 are no longer available.
     - [x] Build Manifests
         - Used by new mobile builds (Used by 1.6.x - 1.88.x)
         - Platforms: Windows, Android_ASTC, Android_ATC, Android_DXT, Android_EXT1, Android_EXT2, Android_PVRTC, IOS
         - We can still download these
-          from [the CDN](https://battlebreakers-live-cdn.ol.epicgames.com/1.88.244-r17036752/BuildManifest-Windows.txt), along with their PAKs
+          from [the CDN](https://battlebreakers-live-cdn.ol.epicgames.com/1.88.244-r17036752/BuildManifest-Windows.txt),
+          along with their PAKs
     - Versions
         - [x] 1.88.244-r17036752 (Latest) (Got APK + PAKs, EXE) (4.25.0-17035652)
         - [ ] 1.88.165-r14606516 (Got PAKs) (4.25.0)

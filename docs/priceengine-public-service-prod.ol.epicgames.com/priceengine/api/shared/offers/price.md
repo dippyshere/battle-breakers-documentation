@@ -4,33 +4,26 @@
 
 *https://priceengine-public-service-prod.ol.epicgames.com/priceengine/api/shared/offers/price*
 
-
-
 ___
 
 ## Request
 
-```http request
+```http
 POST /priceengine/api/shared/offers/price HTTP/1.1
 ```
 
-
-
-
-
 ### Request Headers
 
-| Name | Value |
-|---|---|
-| Host | priceengine-public-service-prod.ol.epicgames.com |
-| Accept | \*/\* |
-| Accept-Encoding | deflate, gzip |
-| Content-Type | application/json |
-| X-Epic-Correlation-ID | UE4-2f4c92e44a8a8420a867089329526852-F210356F48A4A08AF14720B3AE34B5B9-50436E2E48344CEEBDFB1994EC31942E |
-| User-Agent | WorldExplorers/1.88.244-r17036752 Windows/10.0.22621.1.256.64bit |
-| Authorization | bearer [eg1~token](https://github.com/dippyshere/battle-breakers-documentation/blob/master/docs/common/tokens/eg1.md) |
-| Content-Length | 699 |
-
+| Name                  | Value                                                                                                                 |
+|-----------------------|-----------------------------------------------------------------------------------------------------------------------|
+| Host                  | priceengine-public-service-prod.ol.epicgames.com                                                                      |
+| Accept                | \*/\*                                                                                                                 |
+| Accept-Encoding       | deflate, gzip                                                                                                         |
+| Content-Type          | application/json                                                                                                      |
+| X-Epic-Correlation-ID | UE4-2f4c92e44a8a8420a867089329526852-F210356F48A4A08AF14720B3AE34B5B9-50436E2E48344CEEBDFB1994EC31942E                |
+| User-Agent            | WorldExplorers/1.88.244-r17036752 Windows/10.0.22621.1.256.64bit                                                      |
+| Authorization         | bearer [eg1~token](https://github.com/dippyshere/battle-breakers-documentation/blob/master/docs/common/tokens/eg1.md) |
+| Content-Length        | 699                                                                                                                   |
 
 ### Request Body
 
@@ -90,20 +83,16 @@ ___
 
 #### Status: 200 OK
 
-
-
-
 ### Response Headers
 
-| Name | Value |
-|---|---|
-| Date | Thu, 29 Dec 2022 05:43:13 GMT |
-| Content-Type | application/json |
-| Content-Length | 6262 |
-| X-Epic-Device-ID | 68009daed09498667a8039cce09983ed |
+| Name                  | Value                                                                                                  |
+|-----------------------|--------------------------------------------------------------------------------------------------------|
+| Date                  | Thu, 29 Dec 2022 05:43:13 GMT                                                                          |
+| Content-Type          | application/json                                                                                       |
+| Content-Length        | 6262                                                                                                   |
+| X-Epic-Device-ID      | 68009daed09498667a8039cce09983ed                                                                       |
 | X-Epic-Correlation-ID | UE4-2f4c92e44a8a8420a867089329526852-F210356F48A4A08AF14720B3AE34B5B9-50436E2E48344CEEBDFB1994EC31942E |
-| Connection | keep-alive |
-
+| Connection            | keep-alive                                                                                             |
 
 ### Response Body
 
@@ -416,8 +405,6 @@ ___
   "vatEnabled": true
 }
 ```
-
-*Response body was encoded in base64*
 
 ___
 
